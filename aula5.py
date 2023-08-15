@@ -72,17 +72,60 @@ for letra in palavra:
     
 #desafio 6
 
-frutas = ['maça', 'banana', 'manga', 'uva']
+#frutas = ['maça', 'banana', 'manga', 'uva']
 
-print(frutas)
+#print(frutas)
 
 #desafio 7
 
-for fruta in frutas:
+'''for fruta in frutas:
     print(frutas[0])
-    print(frutas[3])
+    print(frutas[3])'''
     
+
+#for loop - utilizando if e else
+#enviar um email com detalhes da compra online , para compras confirmadas
+
+'''for enviar in range(3):
+    if compra_confirmada:
+        print('dados das compras')
+        break
+    else:
+        print('falha na compra')'''
+        
+#for loop - utilizando if e else aninhandos
+
+#outer loop (laço externo)
+
+''''for numero1 in range(5):
+    print(numero1)
+    for numero2 in range(5):
+        print(numero1, [numero2])'''
+        
+#inner loop (laço interno)
+
+'''for numero1 in range(1,6):
+    print('produto {}'.format(numero1))
+    for numero2 in range(5):
+        print(numero1, [numero2])'''
     
+#modificar de fantastico para f a n t a s t i s c o
+
+'''palavra = 'FANTASTICO'
+
+for space in palavra:
+    print(space, end='') #sem espaçamento de uma letra para outra
+    print(space, end=' ')#espacamento de uma letra para outra'''
+
+#criar um retangulo 6x6
+
+linha = 6
+coluna = 6
+simbolo = '$'
+
+for l in range(linha):
+    for c in range (coluna):
+        print(simbolo, end='')
 
 
 

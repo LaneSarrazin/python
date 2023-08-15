@@ -44,5 +44,8 @@ frutas[0] = "caju"
 
 print(frutas)
 
+#!= diferente do outro numero
+
+
 
 

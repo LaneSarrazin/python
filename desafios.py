@@ -58,6 +58,8 @@ for f in frutas:
    if f == x:
       cont +=1
 print(f' a palavra maça aparece {cont} vezes')
+
+
    
         
 

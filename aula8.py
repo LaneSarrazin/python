@@ -30,7 +30,7 @@
 #* colocando o asteristicos posso receber varios valores
 #* um asteristicos para receber varios parametros
 
-def soma(*numeros):
+'''def soma(*numeros):
     
     resultado = 0
     
@@ -40,9 +40,9 @@ def soma(*numeros):
     return resultado
 
 x = soma(2,3,4,5,7)
-print(x)
+print(x)'''
 
-def somador(v1,v2):
+'''def somador(v1,v2):
     soma = v1 +v2
     return soma
 
@@ -52,16 +52,16 @@ def somador(v1,v2):
 #chama a funcao
 res = somador (3,4)
 
-print(f'valor e {res}')
+print(f'valor e {res}')'''
 
 #declarcao da funcao
-def imprime_msg(nomePessoa):
+'''def imprime_msg(nomePessoa):
     print(f'o usuario {nomePessoa} kkkkkkkkk')
     
 #chamando a funcao
 
 nome = input('digite seu nome')
-imprime_msg(nome)
+imprime_msg(nome)'''
 
 
 #criar uma funcao que armazena numeros e strings(dados)
@@ -76,9 +76,15 @@ print(agencia(marca= 'gol',cor = 'branca',motor= 1.0))
 print(agencia(marca= 'fiat',cor = 'azul',motor= 2.0))
 print(agencia(marca= 'siena',cor = 'rosa',motor= 3.0))
 
+#qual o fatorial de quatro 
 
-    
-    
+#4 * 3 * 2 * 1 = 24
+
+import math
+
+print(math.factorial(4))
+fatorial = 4 * 3 * 2 * 1
+print(fatorial)
 
 
 

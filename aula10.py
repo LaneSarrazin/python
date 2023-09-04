@@ -11,6 +11,10 @@ usuario1 = funcionarios()
 
 print(usuario1.nome)'''
 
+#importando modulo
+
+from datetime import datetime
+
 #criar classe
 
 class Funcionario:
@@ -21,17 +25,23 @@ class Funcionario:
         
     def nome_completo(self):
         return self.nome + " " + self.sobrenome
-        
+    
+    def idade_funcionario(self):
+         ano_atual = datetime.now().year
+         self.data_nas = int(ano_atual - self.data_nas)
+         return self.data_nas
+         
 
 
 #criar um objeto
 
-usuario1 = Funcionario("Maria", "Alves", "20/08/23")
-usuario2 = Funcionario("Susi", "Marques", "06/10/22")
+usuario1 = Funcionario("Maria", "Alves", 1995)
+usuario2 = Funcionario("Susi", "Marques", 2009)
 
-print(usuario1.nome_completo())
-print(usuario2.nome)
+#print(usuario1.nome_completo())
+#print(usuario2.nome)
 print(Funcionario.nome_completo(usuario2))
+print(Funcionario.idade_funcionario(usuario1))
 #criar os parametros
 
 '''usuario1.nome = "Rosi"

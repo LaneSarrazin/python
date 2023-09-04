@@ -17,7 +17,7 @@ from datetime import datetime
 
 #criar classe
 
-class Funcionario:
+'''class Funcionario:
     def __init__(self,nome,sobrenome,data_nas):
         self.nome = nome
         self.sobrenome = sobrenome
@@ -29,19 +29,19 @@ class Funcionario:
     def idade_funcionario(self):
          ano_atual = datetime.now().year
          self.data_nas = int(ano_atual - self.data_nas)
-         return self.data_nas
+         return self.data_nas'''
          
 
 
 #criar um objeto
 
-usuario1 = Funcionario("Maria", "Alves", 1995)
-usuario2 = Funcionario("Susi", "Marques", 2009)
+#usuario1 = Funcionario("Maria", "Alves", 1995)
+#usuario2 = Funcionario("Susi", "Marques", 2009)
 
 #print(usuario1.nome_completo())
 #print(usuario2.nome)
-print(Funcionario.nome_completo(usuario2))
-print(Funcionario.idade_funcionario(usuario1))
+#print(Funcionario.nome_completo(usuario2))
+#print(Funcionario.idade_funcionario(usuario1))
 #criar os parametros
 
 '''usuario1.nome = "Rosi"
@@ -58,7 +58,17 @@ print(usuario1.nome)
 print(usuario2.nome)'''
         
      
+class Automoveis:
+    def __init__(self,marca, ano):
+        self.marca = marca
+        self.ano = ano
         
+        
+locadora1 = Automoveis("gol", "1889")
+locadora2 = Automoveis("fiat", "1995")
+locadora3 = Automoveis("chevrolet", "2005")
+
+print(locadora1.marca + locadora1.ano)        
 
 
 

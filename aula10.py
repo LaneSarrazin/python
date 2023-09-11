@@ -68,7 +68,7 @@ locadora1 = Automoveis("gol", "1889")
 locadora2 = Automoveis("fiat", "1995")
 locadora3 = Automoveis("chevrolet", "2005")
 
-print(locadora1.marca + locadora1.ano)        
+print(locadora1.marca + locadora1.ano)       
 
 
 
